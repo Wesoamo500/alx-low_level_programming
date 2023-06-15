@@ -3,3 +3,4 @@
 2-assembler: compile C code to assembly lang
 3-name: script that compiles a C file and creates an executable named cisfun
 4-puts.c : c program to print a string using puts;
+5-printf.c : out put phrase using printf()
