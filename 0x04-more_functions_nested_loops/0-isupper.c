@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 #include <stdio.h>
 
 /**
@@ -9,5 +8,5 @@
  */
 int _isupper(int c)
 {
-  return isupper(c);
+  return (c >= 'A' && c <= 'Z');
 }
