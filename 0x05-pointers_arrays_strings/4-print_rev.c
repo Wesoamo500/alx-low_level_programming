@@ -17,7 +17,7 @@ j = strlen - 1;
 while (j >= 0)
 {
 _putchar(s[j]);
-i--;
+j--;
 }
 _putchar('\n');
 }
