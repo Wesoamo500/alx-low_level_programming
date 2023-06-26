@@ -4,7 +4,7 @@
  * _puts2 - prints a string to stdout
  * @str: pointer to the string to print
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 int i;
 i = 0;
