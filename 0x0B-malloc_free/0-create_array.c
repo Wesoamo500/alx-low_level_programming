@@ -15,11 +15,11 @@ char *x;
 unsigned int i = 0;
 if (size == 0)
 return (NULL);
-*p = (char *) malloc(size * sizeof(char));
-if (p == NULL)
+*x = (char *) malloc(size * sizeof(char));
+if (x == NULL)
 return (0);
 for (i = 0; i < size; i++)
-p[i] = c;
-*(p + 1) = '\0';
-return (p);
+x[i] = c;
+*(x + 1) = '\0';
+return (x);
 }
