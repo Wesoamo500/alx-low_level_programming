@@ -15,7 +15,7 @@ char *x;
 unsigned int i = 0;
 if (size == 0)
 return (NULL);
-*x = (char *) malloc(size * sizeof(char));
+x = (char *) malloc(size * sizeof(char));
 if (x == NULL)
 return (0);
 for (i = 0; i < size; i++)
