@@ -19,7 +19,7 @@ while (s1 && s1[s1_len])
 s1_len++;
 while (s2 && s2[s2_len])
 s2_len++;
-s3 = (char *) malloc(sizeof (char) * (s1_len + s2_len + 1));
+s3 = (char *) malloc(sizeof(char) * (s1_len + s2_len + 1));
 if (s3 == NULL)
 return (NULL);
 if (s1)
