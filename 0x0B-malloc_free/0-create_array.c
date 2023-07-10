@@ -20,6 +20,6 @@ if (x == NULL)
 return (0);
 for (i = 0; i < size; i++)
 x[i] = c;
-*(x + 1) = '\0';
+*(x + i) = '\0';
 return (x);
 }
